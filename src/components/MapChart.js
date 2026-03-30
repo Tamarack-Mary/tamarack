@@ -10,26 +10,26 @@ import geoUrl from "../world.json";
 
 const markers = [
   {
-    name: "Banyan Air Service",
-    address: `Fort Lauderdale Executive Airport (KFXE)<br />
-    Ft. Lauderdale, FL<br />
-    +1 954.491.3170`,
-    coordinates: [-80.16916599 - 10, 26.1916659 + 12],
+    name: "ACI Jet",
+    address: `San Luis Obispo Regional Airport (KSBP)<br />
+    San Luis Obispo, CA<br />
+    +1 805.548.1337`,
+    coordinates: [35.23658, -120.63535],
     type: "serviceCenter",
   },
   {
-    name: "Duncan Aviation",
-    address: `Battle Creek Airport (KBTL)<br />
-    Battle Creek, MI<br />
-    +1 800.525.2376`,
-    coordinates: [-85.551164462 - 12, 42.234332396 + 12],
+    name: "ASG Aerospace",
+    address: `Miami Executive Airport	(KTMB)<br />
+    Miami, FL<br />
+    +1 305.253.0802`,
+    coordinates: [  25.64615, -80.41922],
   },
   {
-    name: "Duncan Aviation",
-    address: `Lincoln Airport (KLNK)<br />
-    Lincoln, NE<br />
-    +1 800.228.4277`,
-    coordinates: [-96.755496978 - 12, 40.850663264 + 12],
+    name: "Atlas Air Service",
+    address: `Bremen Airport (EDDW)<br />
+    Bremen, Germany<br />
+    +49 4215 365 8760`,
+    coordinates: [53.05441, 8.77857],
     type: "serviceCenter",
   },
   {
