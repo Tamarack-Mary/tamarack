@@ -9,178 +9,164 @@ import {
 import geoUrl from "../world.json";
 
 const markers = [
+    {
+    name: "Davinci Jets",
+    address: `Charlotte Douglas International Airport (KCLT)<br />
+   Charlotte, NC USA<br />
+    +1 704.359.4674`,
+    coordinates: [35.21313, -80.92992],
+    type: "installationCenter",
+  },
   {
-    name: "Banyan Air Service",
+    name: "Prince Aviation",
+    address: `Belgrade Nikola Tesla Airport (LYBE)<br />
+    Beograd,  Serbia<br />
+   +381 222097585`,
+    coordinates: [44.82969, 20.40309],
+    type: "installationCenter",
+  },
+  {
+    name: "Toledo Jet",
+    address: `Eugene R Kranz Toledo Express Airport (KTOL)<br />
+    Swanton, OH USA<br />
+    +1 419.866.9050`,
+    coordinates: [41.58822, -83.81935],
+    type: "installationCenter",
+  },
+  {
+    name: "Pulse Aero",
+    address: `Adelaide Airport (YPAD)<br />
+    Adelaide Airport, SA Australia<br />
+   +61 8 8234 4023`,
+    coordinates: [-34.93679, 138.53286],
+    type: "installationCenter",
+  },
+  {
+    name: "Rheinland Air Service GmbH",
+    address: `Mönchengladbach Airport (EDLN)<br />
+    Möenchengladbach,  Germany<br />
+    +49 2161 994 8100`,
+    coordinates: [51.22879, 6.49457],
+    type: "installationCenter",
+  },
+  {
+    name: "Toledo Jet",
     address: `Fort Lauderdale Executive Airport (KFXE)<br />
-    Ft. Lauderdale, FL<br />
+    Ft. Lauderdale, FL USA<br />
     +1 954.491.3170`,
-    coordinates: [-80.16916599 - 10, 26.1916659 + 12],
+    coordinates: [26.19932, -80.18685],
+    type: "installationCenter",
+  },
+  {
+    name: "ACI Jet",
+    address: `San Luis Obispo Regional Airport  (KSBP)<br />
+    San Luis Obispo, CA USA<br />
+    +1 805.548.1337`,
+    coordinates: [35.237252, -120.635276],
     type: "serviceCenter",
   },
   {
-    name: "Duncan Aviation",
-    address: `Battle Creek Airport (KBTL)<br />
-    Battle Creek, MI<br />
-    +1 800.525.2376`,
-    coordinates: [-85.551164462 - 12, 42.234332396 + 12],
-  },
-  {
-    name: "Duncan Aviation",
-    address: `Lincoln Airport (KLNK)<br />
-    Lincoln, NE<br />
-    +1 800.228.4277`,
-    coordinates: [-96.755496978 - 12, 40.850663264 + 12],
-    type: "serviceCenter",
-  },
-  {
-    name: "Elliot Aviation",
-    address: `Des Moines Airport (KDSM)<br />
-    Des Moines, IA<br />
-    +1 800.332.3511`,
-    coordinates: [-93.6604968 - 12, 41.5347119 + 12],
-    type: "serviceCenter",
-  },
-  {
-    name: "Elliot Aviation",
-    address: `Flying Cloud Airport (KFCM)<br />
-    Eden Prairie, MN<br />
-    +1 800.541.9110`,
-    coordinates: [-93.4543 - 12, 44.823 + 12],
-    type: "serviceCenter",
-  },
-  {
-    name: "Elliot Aviation",
-    address: `Quad City Airport (KMLI)<br />
-    Milan, IL<br />
-    +1 800.447.6711`,
-    coordinates: [-90.504497982 - 12, 41.44249823 + 12],
-    type: "serviceCenter",
-  },
-  {
-    name: "Mayo Aviation",
-    address: `Fort Lauderdale Executive Airport (KFXE)<br />
-    Ft. Lauderdale, FL<br />
-    +1 954.491.3170`,
-    coordinates: [-87.56281, 45.29327],
-  },
-  {
-    name: "Northeast Air",
-    address: `Portland International Jetport (KPWM)<br />
-    Portland, ME<br />
-    +1 877.354.7881`,
-    coordinates: [-70.3055 - 12, 43.641 + 12],
-    type: "serviceCenter",
-  },
-  {
-    name: "RBR Aviation",
-    address: `Love Field (KDAL)<br />
-    Dallas, TX<br />
-    +1 214.351.6604`,
-    coordinates: [-96.851349 - 12, 32.848152 + 8],
-    type: "serviceCenter",
-  },
-  {
-    name: "Rose Aircraft Services, Inc",
-    address: `Mena Intermountain Mun. Airport (KMEZ)<br />
-    Mena, AR<br />
-    +1 479.394.2551`,
-    coordinates: [-93.851349 - 12, 32.848152 + 9],
-    type: "serviceCenter",
-  },
-  {
-    name: "SoCal Jet Services",
-    address: `Long Beach Airport (KLGB)<br />
-    Long Beach, CA<br />
-    +1 800.372.1698`,
-    coordinates: [-118.151 - 15, 33.8173 + 12],
-    type: "serviceCenter",
-  },
-  {
-    name: "Western Aircraft",
-    address: `Boise Airport (KBOI)<br />
-    Boise, ID 83705<br />
-    +1 800.333.3442`,
-    coordinates: [-116.220332452 - 12, 43.558664432 + 12],
+    name: "ASG Aerospace",
+    address: `Miami Executive Airport (KTMB)<br />
+    Miami, FL USA<br />
+    +1 305.253.0802`,
+    coordinates: [25.646432, -80.419261],
     type: "serviceCenter",
   },
   {
     name: "Atlas Air Service AG",
     address: `Bremen Airport (EDDW)<br />
     Bremen, Germany<br />
-    +49 421.53658.760`,
-    coordinates: [8.785330192 - 6, 53.041833166 + 12],
+    +49 4215 365 8760`,
+    coordinates: [53.053497, 8.777237],
     type: "serviceCenter",
   },
   {
-    name: "ASG Limited",
-    address: `Guernsey International Airport (EGJB)<br />
-    Guernsey, Channel Islands<br />
-    +44 1481.265750`,
-    coordinates: [-2.601164262 - 6, 49.434331596 + 12],
+    name: "Rose Aircraft Services, Inc",
+    address: `Mena Intermountain Mun. Airport (KMEZ)<br />
+    Mena, AR USA<br />
+    +1 479.394.2551`,
+    coordinates: [34.554477, -94.206469],
     type: "serviceCenter",
   },
   {
+    name: "SoCal Jet Services",
+    address: `Long Beach Airport (KLGB)<br />
+    Long Beach, CA USA<br />
+    +1 562.490.9777`,
+    coordinates: [33.815648, -118.140606],
+    type: "serviceCenter",
+  },
+  {
+    name: "Western Aircraft",
+    address: `Boise Airport (KBOI)<br />
+    Boise, ID USA<br />
+    +1 800.333.3442`,
+    coordinates: [43.563439, -116.237458],
+    type: "serviceCenter",
+  },
+{
     name: "Bromma Air Maintenance AB",
     address: `Bromma Airport (ESSB)<br />
     Bromma, Sweden<br />
-    +46 8.566.190.00`,
-    coordinates: [17.937162918 - 6, 59.352665256 + 12],
+   +46 8 5661 9000`,
+    coordinates: [59.359627, 17.935228],
     type: "serviceCenter",
   },
-  {
+ {
     name: "Conal",
-    address: `Av. Santos Dumont (SDCO)<br />
+    address: `Sorocaba Airport (SDCO)<br />
     Sorocaba – SP, Brazil<br />
-    +55 15.3313.9500`,
-    coordinates: [-43.5525 - 3, -21.45667 + 9],
+    +55 15 3313 9500`,
+    coordinates: [-23.48354, -47.482345],
     type: "serviceCenter",
   },
   {
-    name: "Prince Aviation",
-    address: `Belgrade Nikola Tesla Airport (LYBE)<br />
-    Belgrade, Serbia<br />
-    +381 11.209.75.85`,
-    coordinates: [20.30416545 - 6, 44.81833006 + 12],
+    name: "Burlington Air Center, Inc.",
+    address: `Burlington Municipal Airport (KBUU)<br />
+    Burlington, WI USA<br />
+    +1 262.763.9500`,
+    coordinates: [42.691248, -88.297086],
     type: "serviceCenter",
   },
   {
-    name: "Signature Technicair",
+    name: "Fly ASG Limited",
+    address: `Guernsey International Airport (EGJB)<br />
+    Guernsey, Channel Islands<br />
+    +44 1481 265750`,
+    coordinates: [49.432113, -2.598943],
+    type: "serviceCenter",
+  },
+  {
+    name: "GA Jet Mx",
+    address: `Gwinnet County Airport - Brisco Field (KLZU)<br />
+    Lawrenceville, GA USA<br />
+    +1 855.513.4526`,
+    coordinates: [33.975045, -83.963946],
+    type: "serviceCenter",
+  },
+  {
+    name: "Signature Technicair EMEA",
     address: `Bournemouth Airport (EGHH)<br />
     Christchurch, Dorset UK<br />
-    +44 (0) 1202.573243`,
-    coordinates: [-1.838829978 - 6, 50.774663568 + 12],
+    +44 1202 573243`,
+    coordinates: [50.783576, -1.846204],
     type: "serviceCenter",
   },
   {
     name: "Solojet Aviação",
     address: `Chacara Aeroporto (SBJD)<br />
     Jundiai – SP, Brazil<br />
-    +55 11.4582.7899`,
-    coordinates: [-46.88417 - 3, -23.186393 + 9],
+    +55 11 4582 7899`,
+    coordinates: [-23.175049, -46.945041],
     type: "serviceCenter",
   },
   {
-    name: "Tamarack West Coast Transformation Center",
+    name: "Tamarack Transformation Center",
     address: `Sandpoint Airport (KSZT)<br />
-    Sandpoint, ID<br />
+    Sandpoint, ID USA<br />
     +1 208.255.4400`,
-    coordinates: [-128.56281, 56.29327],
-    type: "transformationCenter",
-  },
-  {
-    name: "Tamarack East Coast Transformation Center",
-    address: `Aiken Regional Airport (KAIK)<br />
-    Aiken, SC<br />
-    +1 803.609.7776`,
-    coordinates: [-87.56281 + 1, 45.29327 + 1],
-    type: "transformationCenter",
-  },
-  {
-    name: "Tamarack European Transformation Center",
-    address: `Oxford Airport (EGTK)<br />
-    Kidlington, UK<br />
-    +44 (0) 1865.502.484`,
-    coordinates: [-1.3230496 - 6, 51.8370683 + 12],
+    coordinates: [48.293487, -116.562983],
     type: "transformationCenter",
   },
 ];
@@ -227,6 +213,19 @@ const MapChart = ({ setTooltipContent }) => {
               }
             >
               Transformation Centers
+            </button>
+          </li>
+         <li>
+            <button
+              type="button"
+              className={filter === "installationCenter" ? "active" : ""}
+              onClick={() =>
+                filter === "installationCenter"
+                  ? setFilter("")
+                  : setFilter("installationCenter")
+              }
+            >
+              Installation Centers
             </button>
           </li>
           <li>
