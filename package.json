@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tamarack",
+=======
+  "name": "tagmap",
+>>>>>>> 2cef69cab49a43df698ffddf0aa27d6f78fbc85d
   "type": "commonjs",
   "version": "0.1.0",
   "private": true,
